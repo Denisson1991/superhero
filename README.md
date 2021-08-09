@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# O que é?
 
 Esse projeto consiste em uma aplicação feita em React.Js 
 
-## Available Scripts
+## O que faz?
 
 Nessa Plicação é possível listar vários super heróis e ao clicar nos cards será exibido informações sobre o herói
 
