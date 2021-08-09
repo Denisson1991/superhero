@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto consiste em uma aplicação feita em React.Js 
 
 ## Available Scripts
 
-In the project directory, you can run:
+Nessa Plicação é possível listar vários super heróis e ao clicar nos cards será exibido informações sobre o herói
 
 ### `npm start`
 
