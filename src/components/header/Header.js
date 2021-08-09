@@ -9,6 +9,7 @@ import axios from 'axios';
 
 const Header = () => {
     const valueInput = useSelector((state) => state.onchange.onchange)
+    const heroes = useSelector((state) => state.allHeroes.heroes) 
     const dispatch = useDispatch()
     
     const onchangeInput = (e) => {
@@ -44,7 +45,7 @@ const Header = () => {
                 color="secondary"
                 size="medium"  
                 onClick={onClickSearch}
-            >Buscar</Button>
+            >Buscar </Button>
             
         </ContainerInput>
 
