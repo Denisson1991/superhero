@@ -6,7 +6,8 @@ export const ContainerInput = styled.div `
     text-align: center;
     width: 90vw;
     display: flex;
-    position: absolute;        
+    position: absolute;     
+    justify-content: space-around;   
 
     @media (min-width: 700px) {
         display: flex;
