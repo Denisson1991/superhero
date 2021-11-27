@@ -8,8 +8,8 @@ export const CardImg = styled.img `
 
   @media (min-width: 700px) {
       
-      width: 19vw;
-      height: 55vh;
+      width: 100%;
+      
       
 
   };
@@ -28,7 +28,7 @@ export const CardContainer = styled.div `
   color: white;
 
   @media (min-width: 700px) {    
-      width: 19vw;
+      width: 100%;
       &: hover{
         cursor: pointer;  
         -webkit-transform: scale(1.3);

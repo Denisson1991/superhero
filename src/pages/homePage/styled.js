@@ -8,16 +8,23 @@ export const ScreenContainer = styled.div`
   position: absolute;
   top: 65px;
 
-  @media (min-width: 700px) {
-    
+  
+  @media (min-width: 500px) {    
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 10px;
     column-gap: 35px;    
     position: absolute;
     top: 65px;
+  };
 
-};
+  @media (min-width: 700px) {
+    grid-template-columns: repeat(3, 1fr);
+  };
+
+  @media (min-width: 1250px) {
+    grid-template-columns: repeat(4, 1fr);
+  };
 `
 
 

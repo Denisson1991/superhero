@@ -2,8 +2,7 @@ import styled from 'styled-components'
 
 export const Back = styled.img `
     position: fixed;
-    top: 0px;
-    width: 100%;
+    top: 0px;    
     height: 100%;
     object-fit: cover;    
     animation: transicion 15s;
